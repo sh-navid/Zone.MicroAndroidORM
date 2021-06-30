@@ -1,6 +1,6 @@
 # MicroAndroidORM
 MIT License
-~~~android
+~~~java
     @ORMTable(TableName="TestEntityTable")
     public class TestEntity {
         @ORMField(Name = "ID", isPrimaryKey = true)
