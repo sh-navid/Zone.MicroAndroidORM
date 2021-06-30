@@ -1,6 +1,6 @@
 # MicroAndroidORM
 MIT License
-
+~~~android
     @ORMTable(TableName="TestEntityTable")
     public class TestEntity {
         @ORMField(Name = "ID", isPrimaryKey = true)
@@ -12,3 +12,4 @@ MIT License
         @ORMField(Name="InsertionDate")
         private String date="";
     }
+~~~
